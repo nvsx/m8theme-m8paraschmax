@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    color: #333;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+/* ........................................ */
+.top-bar {
+    background-color: #333;
+    color: #f7f7f7;
+    text-align:center;
+    margin:0;
+    padding: 20px;
+    height: 5rem;
+}
+
+/* ........................................ */
+.hero-section {
+    position:relative;
+    overflow: hidden;
+}
+.hero-video {
+    object-fit: cover;
+    width: 100%;
+    min-height: 26rem;
+    max-height: 32rem;
+}
+.hero-text {
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+    max-width: 300px;
+}
+.hero-text h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-family: 'Comic Sans MS', helvetia, verdana, sans-serif;
+}
+
+/* ........................................ */
+.hero-parallax {
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero2 {
+    background-image: url("/ext/m8theme-m8paraschmax/img2.jpg");
+    min-height: 650px; 
+}
+.hero2-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width:90%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+/* ........................................ */
+.hero3 {
+    background-image: url("/ext/m8theme-m8paraschmax/img3.jpg");
+    min-height: 400px;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption2 {
+    top: 20%;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    background-color:transparent;
+}
+
+/* ........................................ */
+.hero4 {
+    background-image: url("/ext/m8theme-m8paraschmax/img4.jpg");
+    min-height: 200px;
+}
+
+/* ........................................ */
+.some-box {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width:90%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #f7f7f7;
+    text-align:center;
+    margin:0;
+    padding: 20px;
+    height: 5rem;
+}
